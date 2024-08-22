@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+ipython = "*"
+jupyterlab = "*"
+wat-inspector = "*"
+numpy = "*"
+cryptography = "*"
+rich = {extras = ["jupyter"] }
+requests-cache = "*"
+aiohttp = {extras = ["speedups"] }
+aiohttp-client-cache = {extras = ["all"] }
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
